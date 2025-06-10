@@ -1,8 +1,8 @@
-//tabuada qualquer
-let numero = require(Prompt-Sync)();
-numero = parseInt(prompt('digite um numero: '));
+let numero = require('prompt-sync')();
+numero = parseInt(numero('digite um numero: '));
 
-for(let i=1; numero<=10; i++)
+for(let i=1; i<=10; i++)
 {
-  console.log(numero + numero + ' =' + (numero * i))
+  console.log(numero + '* ' + i +' = ' + (numero * i))
 }
+
