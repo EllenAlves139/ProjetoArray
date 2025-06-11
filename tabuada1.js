@@ -1,9 +1,7 @@
-let prompt = require('prompt-sync')();
- 
-console.log("=== tabuada do 9 ===");
+let numero = require('prompt-sync')();
+numero = parseInt(numero('digite um numero: '));
 
-let numero = 9;
-
-for(let i = 0; i <= 10; i++) {
-    console.log(numero, "x", i, "=", numero * i);
+for(let i=1; i<=10; i++)
+{
+  console.log(numero + '* ' + i +' = ' + (numero * i))
 }

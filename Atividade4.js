@@ -6,3 +6,6 @@ do {
 } while (senha !== "VTNC123");
  
 console.log("Acesso concedido!");
+
+
+
